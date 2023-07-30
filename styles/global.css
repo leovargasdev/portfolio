@@ -1,4 +1,6 @@
 @import url('./user.css');
+@import url('./social.css');
+@import url('./about.css');
 
 * {
   margin: 0;
@@ -40,10 +42,6 @@ body {
   margin: 160px auto 100px;
 }
 
-section {
-  height: 400px;
-}
-
 .projects {
   grid-column: 1 / 3;
 }
@@ -52,4 +50,9 @@ section {
   border-radius: 12px;
   background: var(--background-card);
   box-shadow: var(--shadow-card);
+}
+
+.subtitle {
+  font-size: 28px;
+  font-weight: 600;
 }
