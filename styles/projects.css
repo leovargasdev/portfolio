@@ -78,3 +78,25 @@
 .project:hover strong {
   color: var(--link); 
 }
+
+@media (max-width: 1080px) {
+  .projects {
+    padding: 24px;
+  }
+
+  #project__content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media (max-width: 768px) {
+  #project__content {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .project picture {
+    height: 180px;
+  }
+}

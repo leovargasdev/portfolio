@@ -40,3 +40,69 @@
   font-size: 18px;
   font-weight: 300;
 }
+
+@media (max-width: 1080px) {
+  .user {
+    padding: 0 24px 24px;
+  }
+
+  .user picture {
+    width: 140px;
+    height: 140px;
+  
+    margin-top: -70px;
+  }
+
+  .user__content h1 {
+    font-size: 28px;
+  }
+  
+  .user__content p {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 768px) {
+  .user {
+    padding: 0;
+    flex-direction: row;
+    row-gap: 0;
+  }
+
+  .user picture {
+    width: 180px;
+    height: 180px;
+  
+    margin-top: 0;
+  }
+
+  .user picture img {
+    border-radius: 12px 0 0 12px;
+  }
+
+  .user__content {
+    margin: 0 auto;
+    row-gap: 4px;
+  }
+}
+
+@media (max-width: 550px) {
+  .user {
+    flex-direction: column;
+    row-gap: 6px;
+    padding: 24px;
+  }
+
+  .user picture {
+    width: 100px;
+    height: 100px;
+  }
+
+  .user picture img {
+    border-radius: 12px;
+  }
+
+  .user__content h1 {
+    font-size: 24px;
+  }
+}
